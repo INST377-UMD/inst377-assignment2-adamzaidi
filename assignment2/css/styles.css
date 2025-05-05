@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+nav {
+    background-color: #d50000;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li:hover {
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.fancy-button {
+    background: linear-gradient(90deg, #d50000 0%, #ffcc00 100%);
+    border: none;
+    border-radius: 30px;
+    color: black;
+    font-weight: bold;
+    padding: 12px 30px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.fancy-button:hover {
+    transform: scale(1.1);
+}
+
+#quote-box {
+    margin: 20px auto;
+    font-size: 20px;
+    color: #333;
+    max-width: 600px;
+}
+
+.stock-form {
+    margin: 20px;
+}
+
+.stock-form input, .stock-form select {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#stockChart {
+    margin-top: 30px;
+    width: 90%;
+    height: 400px;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+th {
+    background-color: #d50000;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+#dog-carousel img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+#breedInfo {
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#audio-controls {
+    background-color: #eeeeee;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
